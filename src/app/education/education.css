@@ -1,0 +1,75 @@
+.education{
+
+    padding:100px 10%;
+
+    background:#050816;
+
+}
+
+.timeline{
+
+    position:relative;
+
+    margin-top:60px;
+
+    border-left:3px solid var(--primary);
+
+    padding-left:40px;
+
+}
+
+.timeline-item{
+
+    position:relative;
+
+    margin-bottom:60px;
+
+}
+
+.circle{
+
+    width:18px;
+
+    height:18px;
+
+    background:var(--primary);
+
+    border-radius:50%;
+
+    position:absolute;
+
+    left:-50px;
+
+    top:5px;
+
+}
+
+.content{
+
+    background:#10172A;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    transition:.4s;
+
+}
+
+.content:hover{
+
+    transform:translateX(10px);
+
+}
+
+.content h3{
+
+    color:var(--primary);
+
+}
+
+.content span{
+
+    color:#999;
+
+}

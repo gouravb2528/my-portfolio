@@ -1,0 +1,76 @@
+.contact{
+    padding:100px 10%;
+    background:#08111f;
+}
+
+.contact-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    margin-top:50px;
+}
+
+.contact-info{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.info-card{
+    background:#10172A;
+    padding:20px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.info-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 15px rgba(0,229,255,.3);
+}
+
+.info-card h3{
+    color:var(--primary);
+    margin-bottom:10px;
+}
+
+.info-card p{
+    color:#d6d6d6;
+}
+
+.contact-form{
+    background:#10172A;
+    padding:30px;
+    border-radius:20px;
+}
+
+.contact-form form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#1b2745;
+    color:white;
+    font-size:16px;
+    outline:none;
+}
+
+.contact-form button{
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:var(--primary);
+    color:#000;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.contact-form button:hover{
+    transform:scale(1.03);
+}

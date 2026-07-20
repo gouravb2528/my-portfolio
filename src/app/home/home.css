@@ -1,0 +1,234 @@
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:80px;
+
+    background:linear-gradient(
+        135deg,
+        var(--background),
+        var(--card),
+        var(--background)
+    );
+}
+
+.hero-left{
+
+    flex:1;
+}
+
+.hero-right{
+
+    width:40%;
+
+    display:flex;
+
+    justify-content:center;
+}
+
+.welcome{
+
+    color:#00E5FF;
+
+    font-size:24px;
+
+    margin-bottom:15px;
+}
+
+h1{
+
+    font-size:72px;
+
+    color:white;
+
+    margin-bottom:20px;
+}
+
+h2{
+
+    color:#8B5CF6;
+
+    margin-bottom:20px;
+}
+
+.description{
+
+    color:#d4d4d4;
+
+    line-height:30px;
+
+    margin-bottom:35px;
+
+    font-size:18px;
+}
+
+.buttons{
+
+    display:flex;
+
+    gap:20px;
+}
+
+.primary-btn{
+
+  background:var(--primary);
+
+    color:black;
+
+    border:none;
+
+    border-radius:50px;
+
+    padding:16px 40px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    transition:.4s;
+}
+
+.primary-btn:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 0 25px var(--primary);
+
+}
+
+.secondary-btn{
+
+    background:transparent;
+
+    color:white;
+
+    border:2px solid var(--secondary);
+
+    border-radius:50px;
+
+    padding:16px 40px;
+
+    cursor:pointer;
+
+    transition:.4s;
+
+}
+
+.secondary-btn:hover{
+    
+    background:var(--secondary);
+
+}
+
+button:hover{
+
+    transform:translateY(-4px);
+}
+
+.hero-right img{
+
+    width:380px;
+
+    height:380px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:5px solid #00E5FF;
+
+    animation:float 4s ease-in-out infinite;
+
+    box-shadow:
+
+    0 0 20px #00E5FF,
+
+    0 0 40px rgba(0, 2, 2, 0.5);
+}
+
+.hero-right img:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* .tech-stack{
+
+    display:flex;
+
+    gap:15px;
+
+    margin:25px 0;
+
+    flex-wrap:wrap;
+
+}
+
+.tech-stack span{
+
+    padding:10px 20px;
+
+    border-radius:30px;
+
+    background:#10172A;
+
+    border:1px solid rgba(255,255,255,.1);
+
+    color:#00E5FF;
+
+    transition:.3s;
+
+}
+
+.tech-stack span:hover{
+
+    transform:translateY(-5px);
+
+    background:#00E5FF;
+
+    color:black;
+
+} */
+
+.typing-box{
+
+    display:flex;
+
+    gap:15px;
+
+    margin:30px 0;
+
+    flex-wrap:wrap;
+
+}
+
+.typing-box span{
+
+    padding:12px 22px;
+
+    border-radius:30px;
+
+    background:#10172A;
+
+    color:#00E5FF;
+
+    border:1px solid rgba(255,255,255,.1);
+
+    transition:.3s;
+
+}
+
+.typing-box span:hover{
+
+    background:#00E5FF;
+
+    color:black;
+
+}
+
